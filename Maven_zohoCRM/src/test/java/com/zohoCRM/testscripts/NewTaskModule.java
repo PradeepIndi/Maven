@@ -11,5 +11,10 @@ public class NewTaskModule extends BaseClass{
 	public void createTask() {
 		
 	}
+	
+	@Test
+	public void editTask() {
+		
+	}
 
 }

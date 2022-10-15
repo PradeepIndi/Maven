@@ -8,8 +8,13 @@ import com.zohoCRM.generic.BaseClass;
 @Listeners(com.zohoCRM.generic.ListenerImplementation.class)
 
 public class NewEventModule extends BaseClass {
-	@Test
+	@Test(priority = 1)
 	public void createNewEvent() {
+		
+	}
+	
+	@Test
+	public void editEvent() {
 		
 	}
 
