@@ -5,11 +5,10 @@ import org.testng.annotations.Test;
 
 import com.zohoCRM.generic.BaseClass;
 @Listeners(com.zohoCRM.generic.ListenerImplementation.class)
-
-public class PotentialLead extends BaseClass{
+public class NewTaskModule extends BaseClass{
 	
 	@Test
-	public void createPotentialLead() {
+	public void createTask() {
 		
 	}
 
